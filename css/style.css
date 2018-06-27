@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css?family=GloriaHallelujah');
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=DancingScript');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+ 
+ body { 
+  padding-top: 0px; 
+
+ background-color: black;
+    
+
+ }
+ 
+
+      div.jumbotron {
+      align-content: center;
+
+      border-radius: 7%;
+
+     font-family: 'Dancing Script', cursive;
+     text-align: center;
+     margin-top: 90px;
+     padding-top: 30px
+     padding-bottom: 30px;
+     padding-left: 100%;
+     margin-bottom: 30px;
+     color: inherit;
+     background-color: #ecf0f1;
+      box-shadow: 4px 6px 8px 8px gray;
+       font-family: 'Dancing Script', cursive;
+}
+    
+
+a{
+  text-decoration: none;
+
+}
+.menu{
+  margin-right: 10px;
+}
+
+.type{
+  padding:0 0 0 0;
+  margin:0 0 0 0;
+  border:none;
+  font-size:16px;
+  background-color:none;
+  font-family: 'Gloria Hallelujah', cursive;
+  color: white;
+  font-weight: 900;
+  opactiy: 0.3;
+  letter-spacing:1px;
+
+}
+span.black{
+  color:black;
+}
+span.red{
+  color:red;
+  
+}
+.flag{
+  
+  border:none;
+  padding:none;
+  height:100px;
+  wieght:100px;
+  
+}
+h1{
+  text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
+  padding:0 0 0 0;
+  margin:0 0 0 0;
+  background-color:none;
+  border:0px solid red;
+  font-family: Quicksand;
+  font-weight:bold;
+  text-align:center;
+  color: #006600;
+}
+
+div.item{
+ 
+
+
+  align-content: center;
+  border-radius: 10%; 
+  margin-right:30px;
+ margin-left:38px;
+  margin-top:50px;
+  margin-bottom:10px; 
+  position:relative;
+  float: left;
+  overflow: hidden;
+  padding-bottom:0 0 0 0;
+  min-width: 220px;
+  max-width: 310px;
+  width: 100%;
+  background: #000000;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  
+  
+}
+div.item * {
+  box-sizing: border-box;
+}  
+div.item img {
+  
+  max-width: 100%;
+  vertical-align: top;
+  height: 210px;
+  padding-bottom:0px;
+  
+  
+  
+  
+}
+div.item i {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  border-radius: 50%;
+  font-size: 34px;
+  color: white;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  background: #ffffff;
+  padding-bottom:0px;
+}
+div.item a {
+  
+}
+div.item.blue {
+  background-color:  #1ca3ec;
+  border:5px solid #1ca3ec ;
+}
+div.item.blue img {
+  width:100%;
+}
+div.item.blue i {
+  color:   #1ca3ec;
+  
+}
+div.item.grey img {
+  width:100%;
+}
+
+div.item.yellow {
+  background-color: #F0942C;
+  border:5px solid #F0942C ;
+}
+div.item.yellow i {
+  color: #F0942C;
+}
+
+div.item.gold {
+  background-color: #CCAC00;
+  border:5px solid #CCAC00 ;
+}
+div.item.gold i {
+  color: #CCAC00;
+  
+}
+
+div.item.black {
+  background-color: #f4df42;
+  border:5px solid #f4df42 ;
+}
+div.item.black i {
+  color: #f4df42;
+}
+div.item.black img {
+  width:100%;
+}
+div.item.grey {
+  background-color: #666ed6;
+  border:5px solid #666ed6 ;
+}
+div.item.grey i {
+  color: #666ed6;
+}
+div.item.brown {
+  background-color: #00b300;
+  border:5px solid #00b300 ;
+}
+div.item.brown i {
+  color: #00b300;
+}
+div.item:hover img {
+  opacity: 0.3;
+  filter: grayscale(100%);
+  cursor:pointer;
+  
+  
+}
+
+
+div.item * {
+  transition: all .35s ease-in-out;
+}
+div.item i {
+/*   transform-origin:right center; */
+  transform: translateX(15%) scale(0);
+  transition: transform 300ms 0ms linear;
+}
+.type{
+  transform-origin:right center;
+  transform: translateY(15%) scale(0);
+  transition: transform 300ms 0ms linear;
+  
+}
+div.item:hover i {
+/*   transform-origin:right center; */
+  transform: translateX(15%) scale(1);
+  transition: transform 300ms 100ms linear;
+}
+div.item:hover h1 {
+  transform-origin:left center;
+  transform: translateY(15%) scale(1);
+  transition: transform 300ms 100ms linear;
+}
+body{
+
+   background: url("http://bdfjade.com/data/out/85/5903892-3d-wallpaper-hd.jpg") no-repeat fixed center; 
+   background-position:center; 
+}
+
+
+div.item:hover {
+;
+  animation-play-state: paused;
+}
+div.item{
+  animation: jiggle 4s ease-in infinite;
+}
+@keyframes jiggle {
+  48%, 62% {
+    transform: scale(1.0, 1.0)
+  }
+  50% {
+    transform: scale(1.1, 0.9)
+  }
+  56% {
+    transform: scale(0.9, 1.1) translate(0, -5px)
+  }
+  59% {
+    transform: scale(1.0, 1.0) translate(0, -3px)
+  }
+}
+
+.about{
+  text-align: center;
+  color: black;
+  font-size: 50px;
+  line-height: 17px;
+  box-sizing: border-box;
+      animation: growing 1s ease-in-out 1;
+      animation: blinky 1s ease-in-out 1;
+      animation: falling 1s ease-in-out 1;
+}
+.red{
+  color: red;
+}
+.green{
+  color: green;
+}
+.qoutes{
+  font-size: 50px;
+}
+.navbar{
+  font-family: 'Raleway', sans-serif;
+ 
+
+}
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+ .myclass{
+  
+  animation: slideInFromLeft 1s cubic-bezier(0.165, 0.84, 0.44, 1) 1;
+
+}
+
