@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+
+ 
+body{
+  background-color: black;
+    
+}
+.myclass{
+  
+  animation: slideInFromLeft 1s cubic-bezier(0.165, 0.84, 0.44, 1) 1;
+
+  border-radius: 5%;
+  
+  align-content: center;
+  margin-bottom: 7px;
+
+}
+    
+    div.jumbotron {
+      align-content: center;
+
+      border-radius: 7%;
+
+     font-family: 'Dancing Script', cursive;
+     text-align: center;
+     margin-top: 90px;
+     padding-top: 30px
+     padding-bottom: 30px;
+     padding-left: 100%;
+     margin-bottom: 30px;
+     color: inherit;
+     background-color: #ecf0f1;
+      box-shadow: 4px 6px 8px 8px gray;
+}
+  
+
+a{
+  text-decoration: none;
+}
+.menu{
+  margin-right: 10px;
+}
+
+p{
+  background-color: transparent;
+  border:0px solid red;
+  padding:0 0 0 0;
+  margin:0 0 0 0;
+  
+  
+}
+
+text{
+  
+  text-align:center;
+  position:relative;
+  margin-top:20px;
+  
+  border:0px solid red;
+  color:red;
+  font-size:13px;
+  background-color:transparent;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-weight:900;
+  opactiy: 0.3;
+  letter-spacing:2px;
+
+  
+
+}
+span.black{
+  color:black;
+}
+span.red{
+  color:red;
+  
+}
+span.green{
+  color:green;
+  
+}
+.flag{
+  
+  border:none;
+  padding:none;
+  height:100px;
+  wieght:100px;
+  
+}
+
+
+h1{
+  text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
+  background-color:none;
+  border:0px solid red;
+  font-family: Quicksand;
+  font-weight:bold;
+  text-align:center;
+  color: #006600;
+  background-color: transparent;
+}
+
+div.item{
+  
+  position:relative;
+/*   border:2px dashed red; */
+  border-radius: 50%; 
+  margin-right:40px;
+  margin-left:80px;
+  margin-top:20px;
+  margin-bottom:15px;
+  float: left;
+  overflow: hidden;
+  padding-bottom:12px;
+  min-width: 180px;
+  max-width: 310px;
+  width: 24%;
+  background-color: transparent;
+  text-align: center;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.15);
+  
+  
+}
+div.item * {
+  box-sizing: border-box;
+}  
+div.item img {
+  
+  max-width: 100%;
+  vertical-align: bottom;
+  height: 210px;
+  position:relative;
+  
+  
+}
+
+div.item.blue {
+  background-color: 	#1ca3ec;
+ 
+}
+div.item.blue img {
+  width:100%;
+  
+}
+div.item:hover{
+  box-shadow:0 8px #grey;
+  top: 6px;
+}
+div.item:active{
+  box-shadow:0 14px #grey;
+  top: 10px;
+}
+
+div.item:hover img {
+
+  opacity: 0.7;
+  filter: grayscale(100%);
+  cursor:pointer;
+  
+  
+}
+
+
+div.item * {
+  transition: all .35s ease-in-out;
+}
+text{
+  transform-origin:right center;
+  transform: translateY(15%) scale(0);
+  transition: transform 300ms 0ms linear;
+  
+}
+
+
+
+div.item{
+  
+  
+  position:obsolute;
+/*   border:2px dashed red; */
+  border-radius: 50%; 
+  margin-right:40px;
+  margin-left:60px;
+  margin-top:20px;
+  margin-bottom:15px;
+  float: left;
+  overflow: hidden;
+  padding-bottom:12px;
+  min-width: 180px;
+  max-width: 310px;
+  width: 24%;
+/*   background-color: transparent; */
+  text-align: center;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.15);
+}
+
+
+
+div.item:hover {
+  animation: jiggle 1s ease-in infinite;
+  transition-delay:0s; 
+
+}
+
+@keyframes jiggle {
+  48%, 62% {
+    transform: scale(1.0, 1.0)
+  }
+  50% {
+    transform: scale(1.1, 0.9)
+  }
+  56% {
+    transform: scale(0.9, 1.1) translate(0, -5px)
+  }
+  59% {
+    transform: scale(1.0, 1.0) translate(0, -3px)
+  }
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.navbar{
+  font-family: 'Raleway', sans-serif;
+}
+
+
+
+
